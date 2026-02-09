@@ -39,16 +39,6 @@ p {
   list-style: 1.5rem;
 }
 
-footer {
-  background-color: #ffe0ac;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  margin-top: 25px;
-  text-align: center;
-}
-.footer-link {
-  text-decoration: none;
-}
 
 .wrapper {
   margin: auto;
@@ -64,6 +54,7 @@ footer {
   padding: 3rem;
   max-width: 992px;
   margin: auto;
+  margin-bottom: 25px;
   border-radius: 2px;
   display: grid;
   grid-template-columns: 1.5fr 3fr;

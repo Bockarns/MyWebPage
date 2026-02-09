@@ -49,27 +49,7 @@ a {
   color: #cf7500;
 }
 
-/* Anpassa Bootstrap navbar */
-.navbar .nav-link {
-    color: #cf7500 !important;
-    padding: 10px 15px;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
 
-    .navbar .nav-link:hover {
-        background: rgba(247, 187, 109, 0.7);
-        transform: scale(1.05);
-        border-radius: 5px;
-    }
-
-.dropdown-menu {
-    background: rgba(176, 219, 156, 0.9);
-}
-
-.dropdown-item:hover {
-    background: #79c776;
-}
 
 a:hover {
   color: #b9fffc;
@@ -208,52 +188,9 @@ a:hover {
   text-decoration: none;
 }
 
-.bottom-container {
-  background-color: #ffe0ac;
-  position: relative;
-  padding-top: 50px;
-  padding-bottom: 10px;
-}
 
-.footer-link {
-  color: #66bfbf;
-  margin: auto 20px auto 20px;
-  font-size: 1.5rem;
-  font-family: "Montserrat", sans-serif;
-}
 
-.copyright {
-  font-size: 0.75rem;
-  color: #66bfbf;
-  padding: 20px 0;
-}
 
-.flaticon {
-  background-color: #ffe0ac;
-  position: relative;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-
-.flaticon-attribute-prettycons {
-  font-size: 10px;
-  text-align: left;
-  margin-left: 2%;
-  color: #66bfbf;
-}
-
-.flaticon-attribute-freepik {
-  font-size: 10px;
-  text-align: left;
-  margin-left: 2%;
-  color: #66bfbf;
-}
-
-.bockarns {
-  width: 75px;
-  float: right;
-  margin-right: 2%;
-}
 
 /* Molneffekt */
 .cloud {

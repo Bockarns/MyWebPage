@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="icon" href="~/images/faviconjgb.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/cv.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/navbar.css" />
+    
+    @RenderSection("Styles", required: false)
+    
 </head>
 <body>
     <header>
@@ -30,6 +32,18 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" asp-page="/Index" asp-fragment="contact">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Portfolio
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-page="/dices">The Pig Game</a></li>
+                                <li><a class="dropdown-item" asp-page="/#">Guess my number</a></li>
+                                <li><a class="dropdown-item" asp-page="/#">Memory</a></li>
+                                <li><a class="dropdown-item" asp-page="/#">Golf Club Centar (Swedish)</a></li>
+                                <li><a class="dropdown-item" href="https://github.com/Bockarns">More on my GitHub here!</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
@@ -57,7 +71,7 @@
         <a class="footer-link" href="https://github.com/Bockarns">Github</a>
         <p class="copyright">© 2026 Jerome Gordon-Bock.</p>
     </footer>
-
+    
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
