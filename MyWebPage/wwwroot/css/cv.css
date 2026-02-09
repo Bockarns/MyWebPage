@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tirra:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+body {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #1a7474;
+}
+
+dd,
+li {
+  margin-left: 10px;
+  line-height: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #2e70ae;
+}
+h1 {
+  font-size: 3vw;
+}
+h2 {
+  font-size: 1.5vw;
+}
+h3 {
+  margin: 2%;
+}
+
+h4 {
+  font-weight: 800;
+}
+
+p {
+  list-style: 1.5rem;
+}
+
+footer {
+  background-color: #ffe0ac;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin-top: 25px;
+  text-align: center;
+}
+.footer-link {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: auto;
+  width: 75%;
+  padding-top: 100px;
+}
+
+.container {
+  background-color: ivory;
+  box-shadow:
+    2px 2px 10px,
+    -2px -2px 10px;
+  padding: 3rem;
+  max-width: 992px;
+  margin: auto;
+  border-radius: 2px;
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  grid-template-rows: 0.2fr 1fr;
+}
+
+.name-title {
+  width: 75%;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  grid-column: span 2;
+  border-bottom: solid #2e70ae 2px;
+}
+.btn {
+  background: #1a7474;
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(97, 228, 206, 0.7),
+    rgba(154, 231, 231, 0.7)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgba(97, 228, 206, 0.7),
+    rgba(154, 231, 231, 0.7)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    rgba(97, 228, 206, 0.7),
+    rgba(154, 231, 231, 0.7)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgba(97, 228, 206, 0.7),
+    rgba(154, 231, 231, 0.7)
+  );
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.btn:hover {
+  background: rgba(97, 228, 206, 0.7);
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(154, 231, 231, 0.7),
+    rgba(97, 228, 206, 0.7)
+  );
+  background-image: -moz-linear-gradient(
+    top,
+    rgba(154, 231, 231, 0.7),
+    rgba(97, 228, 206, 0.7)
+  );
+  background-image: -ms-linear-gradient(
+    top,
+    rgba(154, 231, 231, 0.7),
+    rgba(97, 228, 206, 0.7)
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgba(154, 231, 231, 0.7),
+    rgba(97, 228, 206, 0.7)
+  );
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.main-content {
+  border-left: solid #2e70ae 2px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.contactinfo {
+  padding: 10px;
+  grid-row: span 3;
+}
+
+.profile-image {
+  width: 75%;
+}
+
+.break-line {
+  border: solid #2e70ae 2px;
+  border-bottom: none;
+  width: 100%;
+  margin: 1px;
+  height: 1px;
+}
+
+.footer-link {
+  color: #66bfbf;
+  margin: auto 20px auto 20px;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: #66bfbf;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+  footer {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 8vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  h3 {
+    margin-left: 0;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    padding: 5px;
+  }
+  .top-container {
+    grid-column: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contactinfo {
+    grid-row: auto;
+  }
+  .main-content {
+    border-top: solid #2e70ae 2px;
+    border-left: none;
+    margin-left: 0;
+    padding: 10px;
+  }
+}
