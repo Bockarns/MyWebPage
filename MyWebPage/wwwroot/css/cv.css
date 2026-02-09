@@ -18,10 +18,8 @@ li {
   line-height: 2rem;
 }
 
-h1,
-h2,
-h3 {
-  color: #2e70ae;
+.cv-headings {
+    color: #2e70ae;
 }
 h1 {
   font-size: 3vw;
@@ -76,14 +74,14 @@ footer {
   width: 75%;
 }
 
-.top-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  grid-column: span 2;
-  border-bottom: solid #2e70ae 2px;
+.presentation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-column: span 2;
+    border-bottom: solid #2e70ae 2px;
 }
 .btn {
   background: #1a7474;

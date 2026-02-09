@@ -4,17 +4,16 @@ html {
 body {
     color: #40514e;
     margin: 0;
-    padding-top: 85px;
     text-align: center;
     font-family: "Merriweather", serif;
 }
 
-h1 {
-  color: rgb(102, 191, 191);
-  line-height: 2;
-  margin: 50px auto 0 auto;
-  font-family: "Sacramento", cursive;
-  font-size: 5.625rem;
+.iam {
+    color: rgb(102, 191, 191);
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
 }
 
 h2 {
@@ -75,11 +74,11 @@ a {
 a:hover {
   color: #b9fffc;
 }
-.break-line {
-  border: dotted #b9fffc 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
+.break-line-home {
+    border: dotted #b9fffc 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 .top-container {
   display: flex;
@@ -91,7 +90,6 @@ a:hover {
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  height: 770px;
 }
 .welcome {
   z-index: 5;
@@ -171,7 +169,7 @@ a:hover {
   margin: 40px auto 60px;
 }
 
-.btn {
+.btn-main {
   background: #d19810;
   background-image: -webkit-linear-gradient(top, #cf7500, #ffe0ac);
   background-image: -moz-linear-gradient(top, #cf7500, #ffe0ac);
@@ -196,7 +194,7 @@ a:hover {
   text-align: center;
 }
 
-.btn:hover {
+.btn-main:hover {
   border: solid #ffae00 0;
   background: #ffae00;
   background-image: -webkit-linear-gradient(top, #ffe0ac, #cf7500);
@@ -304,11 +302,11 @@ a:hover {
     transform: scale(0.8) rotate(0deg);
   }
   40% {
-    bottom: 450px; /* Uppe på toppen */
+    bottom: 380px; /* Uppe på toppen */
     transform: scale(1) rotate(140deg);
   }
   60% {
-    bottom: 450px; /* Stannar kvar uppe en stund */
+    bottom: 380px; /* Stannar kvar uppe en stund */
     transform: scale(1) rotate(220deg); /* Fortsätter rotera lite */
   }
   100% {
