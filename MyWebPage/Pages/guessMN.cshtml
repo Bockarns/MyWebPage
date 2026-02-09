@@ -9,14 +9,15 @@
 @section Scripts {
     <script src="~/js/guessMN.js" asp-append-version="true"></script>
 }
-
+<main class="wrapper">
 <div class="gmn-header">
     <h1>Guess My Number!</h1>
     <p class="between">(Between 1 and 20)</p>
     <button class="btn again">Again!</button>
     <div class="number">?</div>
 </div>
-<main>
+<div class="gmn-container"> 
+
     <section class="left">
         <input type="number" class="guess" />
         <button class="btn check">Check!</button>
@@ -27,5 +28,6 @@
         <p class="label-highscore">
             🥇 Highscore: <span class="highscore">0</span>
         </p>
-    </section>
+        </section>
+    </div>
 </main>
