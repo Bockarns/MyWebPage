@@ -82,6 +82,6 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.number').textContent = '?';
   document.querySelector('.score').textContent = score;
   document.querySelector('.guess').value = '';
-    document.querySelector('.wrapper').style.backgroundColor = '#222';
+    document.querySelector('.wrapper').style.backgroundColor = '#1a7474';
   document.querySelector('.number').style.width = '15rem';
 });

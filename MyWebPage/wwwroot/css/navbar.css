@@ -4,6 +4,7 @@ html {
     scroll-behavior: smooth;
     font-size: 62.5%;
     box-sizing: border-box;
+    
 }
 
 /* Anpassa Bootstrap navbar */
@@ -87,4 +88,8 @@ footer {
     width: 75px;
     float: right;
     margin-right: 2%;
+}
+
+.wrapper {
+    background-color: #1a7474;
 }
