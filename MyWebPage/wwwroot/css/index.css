@@ -1,6 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
 body {
     color: #40514e;
     margin: 0;
@@ -13,13 +10,13 @@ body {
     line-height: 2;
     margin: 50px auto 0 auto;
     font-family: "Sacramento", cursive;
-    font-size: 5.625rem;
+    font-size: 9.625rem;
 }
 
 h2 {
   color: #cf7500;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   font-weight: normal;
   padding-bottom: 5px;
 }
@@ -27,20 +24,20 @@ h2 {
 h3 {
   color: #cf7500;
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 h4 {
   color: #cf7500;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 5px;
 }
 
 p {
   color: #b9fffc;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   line-height: 2;
 }
 

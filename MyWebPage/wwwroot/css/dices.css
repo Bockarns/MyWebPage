@@ -6,11 +6,6 @@
   box-sizing: inherit;
 }
 
-html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-}
-
 .wrapper {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
@@ -23,7 +18,7 @@ html {
 }
 
 /* LAYOUT */
-.container {
+.container-dice {
     position: relative;
 /*    width: 80rem;*/
     height: 60rem;
@@ -171,3 +166,29 @@ html {
 }
 
 /*Mediascreens*/
+
+@media screen and (max-width: 992px) {
+    .container-dice {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+/*    .wrapper{
+        padding: 75px 0;
+    }*/
+    .container-dice {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .btn--hold {
+        top: 51rem;
+    }
+    .btn--roll {
+        top: 43rem;
+    }
+    .btn--new {
+        top: 1rem;
+    }
+
+}
