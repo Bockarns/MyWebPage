@@ -173,12 +173,13 @@
 }
 
 @media screen and (max-width: 768px) {
-/*    .wrapper{
-        padding: 75px 0;
-    }*/
+    .wrapper{
+        height: 100%;
+        padding-top: 10%;
+    }
     .container-dice {
         flex-direction: column;
-        height: 100vh;
+        height: 100%;
     }
     .btn--hold {
         top: 51rem;

@@ -113,3 +113,33 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 600px){
+    .gmn-header {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+.gmn-container {
+    height: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 150px 0 25px 0;
+}
+.left, .right{
+    width: 100vw;
+    
+}
+.between{
+    right: auto;
+}
+.again{
+    left: auto;
+    top: 5.5rem;
+}
+}

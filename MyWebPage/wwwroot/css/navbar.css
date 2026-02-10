@@ -5,6 +5,7 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
     background-color: #1a7474;
+    
 }
 
 /* Anpassa Bootstrap navbar */
@@ -92,4 +93,15 @@ footer {
 
 .wrapper {
     background-color: #1a7474;
+}
+
+@media screen and (max-width: 600px) {
+    .bottom-container{
+        padding:10px 0 10px 0;
+        position: relative;
+        bottom: 0;
+    }
+    .copyright {
+        padding: 10px 0;
+    }
 }
