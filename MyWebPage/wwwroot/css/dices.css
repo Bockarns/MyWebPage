@@ -9,7 +9,7 @@
 .wrapper {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    height: 100vh;
+    height: 87vh;
     color: #333;
     display: flex;
     align-items: center;
@@ -155,10 +155,10 @@
   background-color: #2f2f2f;
 }
 
-    .player--winner .name {
-        font-weight: 700;
-        color: #1a7474;
-    }
+.player--winner .name {
+    font-weight: 700;
+    color: #1a7474;
+}
 
 .hidden {
   display: none;

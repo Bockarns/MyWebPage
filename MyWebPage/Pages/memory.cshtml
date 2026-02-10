@@ -1,0 +1,140 @@
+﻿@page
+@model MyWebPage.Pages.memoryModel
+@{
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/memory.css" asp-append-version="true" />
+}
+@section Scripts {
+    <script src="~/js/memory.js" asp-append-version="true"></script>
+}
+
+<section class="products" id="memory">
+    <h1>Memory</h1>
+    <div class="contact__content">
+        <div class="wrapper">
+            <!-- Popup ruta som meddelar vinst eller om tiden tog slut -->
+            <div class="popup hidden">
+                <h3 class="popup-text">Vinnare eller förlorare!</h3>
+                <button class="close-popup">&times;</button>
+            </div>
+            <div class="overlay hidden"></div>
+            <ul class="cards">
+                <li class="card">
+                    <div class="view front-view">
+                        <img class="img-front" src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img class="img-back" src="/images/memory-img/img6.jpg" alt="card-img" />
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="view front-view">
+                        <img class="img-front" src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img class="img-back" src="/images/memory-img/img1.jpg" alt="card-img" />
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="view front-view">
+                        <img src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img src="/images/memory-img/img3.jpg" alt="card-img" />
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="view front-view">
+                        <img src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img src="/images/memory-img/img2.jpg" alt="card-img" />
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="view front-view">
+                        <img src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img src="/images/memory-img/img6.jpg" alt="card-img" />
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="view front-view">
+                        <img src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img src="/images/memory-img/img2.jpg" alt="card-img" />
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="view front-view">
+                        <img src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img src="/images/memory-img/img4.jpg" alt="card-img" />
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="view front-view">
+                        <img src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img src="/images/memory-img/img5.jpg" alt="card-img" />
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="view front-view">
+                        <img src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img src="/images/memory-img/img3.jpg" alt="card-img" />
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="view front-view">
+                        <img src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img src="/images/memory-img/img1.jpg" alt="card-img" />
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="view front-view">
+                        <img src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img src="/images/memory-img/img4.jpg" alt="card-img" />
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="view front-view">
+                        <img src="/images/memory-img/qmark.png" alt="icon" />
+                    </div>
+                    <div class="view back-view">
+                        <img src="/images/memory-img/img5.jpg" alt="card-img" />
+                    </div>
+                </li>
+            </ul>
+            <div class="details">
+                <p class="time">
+                    <label for="timer">Tid:</label>
+                    <select name="timer" id="timer">
+                        <option value="60">60s</option>
+                        <option value="30">30s</option>
+                        <option value="15">15s</option>
+                    </select>
+                </p>
+                <p class="time-display hidden">
+                    Tid kvar: <span id="time-left">0</span>s
+                </p>
+                <p class="flips">
+                    Antal: <span><b id="flip-number">0</b></span>
+                </p>
+                <button id="start-btn">Start</button>
+            </div>
+        </div>
+    </div>
+</section>
