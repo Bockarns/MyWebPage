@@ -34,7 +34,6 @@ function startGame() {
   newGame();
   timerCounter();
   InitiateCards();
-  // shuffleCards(); //Bortkommenterad från första lösningen.
 }
 
 //hämta korten från arrayn och koppla dom till DOMen
@@ -50,10 +49,6 @@ function InitiateCards() {
 
 //Blanda kort funktion
 function shuffleCards(arr) {
-  //Bortkommenterad från första lösningen.
-  // cards.forEach((card) => {
-  //   card.style.order = Math.floor(Math.random() * cards.length);
-  // });
 
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -66,7 +61,7 @@ function newGame() {
   clearInterval(timerInterval);
   pairedCards = 0;
   flips = 0;
-  flipCounter.textContent = flips;
+    flipCounter.textContent = flips;
   resetTurns();
   cards.forEach((card) => {
     card.classList.remove("shake", "flip");
